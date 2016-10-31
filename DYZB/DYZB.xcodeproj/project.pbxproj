@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		18BBA79B1DC72CAE00A3A2AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA79A1DC72CAE00A3A2AE /* AppDelegate.swift */; };
-		18BBA79D1DC72CAE00A3A2AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA79C1DC72CAE00A3A2AE /* ViewController.swift */; };
 		18BBA7A01DC72CAE00A3A2AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA79E1DC72CAE00A3A2AE /* Main.storyboard */; };
 		18BBA7A21DC72CAE00A3A2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA7A11DC72CAE00A3A2AE /* Assets.xcassets */; };
-		18BBA7A51DC72CAE00A3A2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA7A31DC72CAE00A3A2AE /* LaunchScreen.storyboard */; };
 		18BBA7B01DC72CAE00A3A2AE /* DYZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7AF1DC72CAE00A3A2AE /* DYZBTests.swift */; };
 		18BBA7BB1DC72CAE00A3A2AE /* DYZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7BA1DC72CAE00A3A2AE /* DYZBUITests.swift */; };
+		18BBA7E71DC7474A00A3A2AE /* DYMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7E61DC7474A00A3A2AE /* DYMainTabBarController.swift */; };
+		18BBA7EB1DC7489700A3A2AE /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA7EA1DC7489700A3A2AE /* Home.storyboard */; };
+		18BBA7EF1DC748D100A3A2AE /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA7EE1DC748D100A3A2AE /* Follow.storyboard */; };
+		18BBA7F11DC7494900A3A2AE /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA7F01DC7494900A3A2AE /* My.storyboard */; };
+		18BBA7F31DC749C200A3A2AE /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA7F21DC749C200A3A2AE /* Live.storyboard */; };
+		18BBA7F51DC74D2F00A3A2AE /* DYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7F41DC74D2F00A3A2AE /* DYHomeViewController.swift */; };
+		18BBA7F71DC74D3E00A3A2AE /* DYLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7F61DC74D3E00A3A2AE /* DYLiveViewController.swift */; };
+		18BBA7F91DC74D4D00A3A2AE /* DYFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7F81DC74D4D00A3A2AE /* DYFollowViewController.swift */; };
+		18BBA7FB1DC74D5A00A3A2AE /* DYMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7FA1DC74D5A00A3A2AE /* DYMyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +43,24 @@
 /* Begin PBXFileReference section */
 		18BBA7971DC72CAD00A3A2AE /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BBA79A1DC72CAE00A3A2AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18BBA79C1DC72CAE00A3A2AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18BBA79F1DC72CAE00A3A2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18BBA7A11DC72CAE00A3A2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18BBA7A41DC72CAE00A3A2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18BBA7A61DC72CAE00A3A2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BBA7A11DC72CAE00A3A2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
+		18BBA7A61DC72CAE00A3A2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		18BBA7AB1DC72CAE00A3A2AE /* DYZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BBA7AF1DC72CAE00A3A2AE /* DYZBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBTests.swift; sourceTree = "<group>"; };
 		18BBA7B11DC72CAE00A3A2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BBA7B61DC72CAE00A3A2AE /* DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BBA7BA1DC72CAE00A3A2AE /* DYZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBUITests.swift; sourceTree = "<group>"; };
 		18BBA7BC1DC72CAE00A3A2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BBA7E61DC7474A00A3A2AE /* DYMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DYMainTabBarController.swift; path = "../../Main(我的)/Controller/DYMainTabBarController.swift"; sourceTree = "<group>"; };
+		18BBA7EA1DC7489700A3A2AE /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		18BBA7EE1DC748D100A3A2AE /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		18BBA7F01DC7494900A3A2AE /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		18BBA7F21DC749C200A3A2AE /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		18BBA7F41DC74D2F00A3A2AE /* DYHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYHomeViewController.swift; sourceTree = "<group>"; };
+		18BBA7F61DC74D3E00A3A2AE /* DYLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYLiveViewController.swift; sourceTree = "<group>"; };
+		18BBA7F81DC74D4D00A3A2AE /* DYFollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYFollowViewController.swift; sourceTree = "<group>"; };
+		18BBA7FA1DC74D5A00A3A2AE /* DYMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYMyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				18BBA79A1DC72CAE00A3A2AE /* AppDelegate.swift */,
-				18BBA79C1DC72CAE00A3A2AE /* ViewController.swift */,
+				18BBA7D01DC7413900A3A2AE /* Class */,
 				18BBA79E1DC72CAE00A3A2AE /* Main.storyboard */,
-				18BBA7A11DC72CAE00A3A2AE /* Assets.xcassets */,
-				18BBA7A31DC72CAE00A3A2AE /* LaunchScreen.storyboard */,
-				18BBA7A61DC72CAE00A3A2AE /* Info.plist */,
 			);
 			path = DYZB;
 			sourceTree = "<group>";
@@ -123,6 +134,193 @@
 				18BBA7BC1DC72CAE00A3A2AE /* Info.plist */,
 			);
 			path = DYZBUITests;
+			sourceTree = "<group>";
+		};
+		18BBA7D01DC7413900A3A2AE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7D51DC7413900A3A2AE /* Home(首页) */,
+				18BBA7E21DC7413900A3A2AE /* TV(直播) */,
+				18BBA7D11DC7413900A3A2AE /* attention(关注) */,
+				18BBA7DD1DC7413900A3A2AE /* My(我的) */,
+				18BBA7D91DC7413900A3A2AE /* Main */,
+				18BBA7E11DC7413900A3A2AE /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		18BBA7D11DC7413900A3A2AE /* attention(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7D21DC7413900A3A2AE /* Controller */,
+				18BBA7D31DC7413900A3A2AE /* Model */,
+				18BBA7D41DC7413900A3A2AE /* View */,
+			);
+			path = "attention(关注)";
+			sourceTree = "<group>";
+		};
+		18BBA7D21DC7413900A3A2AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7EE1DC748D100A3A2AE /* Follow.storyboard */,
+				18BBA7F81DC74D4D00A3A2AE /* DYFollowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18BBA7D31DC7413900A3A2AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18BBA7D41DC7413900A3A2AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18BBA7D51DC7413900A3A2AE /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7D61DC7413900A3A2AE /* Controller */,
+				18BBA7D71DC7413900A3A2AE /* Model */,
+				18BBA7D81DC7413900A3A2AE /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		18BBA7D61DC7413900A3A2AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7EA1DC7489700A3A2AE /* Home.storyboard */,
+				18BBA7F41DC74D2F00A3A2AE /* DYHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18BBA7D71DC7413900A3A2AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18BBA7D81DC7413900A3A2AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18BBA7D91DC7413900A3A2AE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7DA1DC7413900A3A2AE /* Controller */,
+				18BBA7DB1DC7413900A3A2AE /* Model */,
+				18BBA7DC1DC7413900A3A2AE /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18BBA7DA1DC7413900A3A2AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7E61DC7474A00A3A2AE /* DYMainTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18BBA7DB1DC7413900A3A2AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18BBA7DC1DC7413900A3A2AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18BBA7DD1DC7413900A3A2AE /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7DE1DC7413900A3A2AE /* Controller */,
+				18BBA7DF1DC7413900A3A2AE /* Model */,
+				18BBA7E01DC7413900A3A2AE /* View */,
+			);
+			name = "My(我的)";
+			path = "Main(我的)";
+			sourceTree = "<group>";
+		};
+		18BBA7DE1DC7413900A3A2AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7F01DC7494900A3A2AE /* My.storyboard */,
+				18BBA7FA1DC74D5A00A3A2AE /* DYMyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18BBA7DF1DC7413900A3A2AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18BBA7E01DC7413900A3A2AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18BBA7E11DC7413900A3A2AE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7A11DC72CAE00A3A2AE /* Assets.xcassets */,
+				18BBA7A61DC72CAE00A3A2AE /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		18BBA7E21DC7413900A3A2AE /* TV(直播) */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7E31DC7413900A3A2AE /* Controller */,
+				18BBA7E41DC7413900A3A2AE /* Model */,
+				18BBA7E51DC7413900A3A2AE /* View */,
+			);
+			path = "TV(直播)";
+			sourceTree = "<group>";
+		};
+		18BBA7E31DC7413900A3A2AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7F21DC749C200A3A2AE /* Live.storyboard */,
+				18BBA7F61DC74D3E00A3A2AE /* DYLiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18BBA7E41DC7413900A3A2AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18BBA7E51DC7413900A3A2AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +430,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BBA7A51DC72CAE00A3A2AE /* LaunchScreen.storyboard in Resources */,
+				18BBA7F11DC7494900A3A2AE /* My.storyboard in Resources */,
+				18BBA7EF1DC748D100A3A2AE /* Follow.storyboard in Resources */,
+				18BBA7F31DC749C200A3A2AE /* Live.storyboard in Resources */,
+				18BBA7EB1DC7489700A3A2AE /* Home.storyboard in Resources */,
 				18BBA7A21DC72CAE00A3A2AE /* Assets.xcassets in Resources */,
 				18BBA7A01DC72CAE00A3A2AE /* Main.storyboard in Resources */,
 			);
@@ -259,8 +460,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BBA79D1DC72CAE00A3A2AE /* ViewController.swift in Sources */,
 				18BBA79B1DC72CAE00A3A2AE /* AppDelegate.swift in Sources */,
+				18BBA7FB1DC74D5A00A3A2AE /* DYMyViewController.swift in Sources */,
+				18BBA7F71DC74D3E00A3A2AE /* DYLiveViewController.swift in Sources */,
+				18BBA7E71DC7474A00A3A2AE /* DYMainTabBarController.swift in Sources */,
+				18BBA7F91DC74D4D00A3A2AE /* DYFollowViewController.swift in Sources */,
+				18BBA7F51DC74D2F00A3A2AE /* DYHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +507,6 @@
 				18BBA79F1DC72CAE00A3A2AE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18BBA7A31DC72CAE00A3A2AE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18BBA7A41DC72CAE00A3A2AE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,6 +609,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingtao.DYZB;
@@ -424,6 +622,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingtao.DYZB;
